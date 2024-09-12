@@ -52,3 +52,27 @@ ul li {
 div ul {
     list-style-type: square; /* Square bullets */
 }
+
+.feature-card {
+    border: 2px solid #7f8c8d; /* Grayish-blue border */
+    padding: 20px; /* Add padding */
+    margin: 20px; /* Add some space around margin */
+    background-color: #f9f9f9; /* Light gray background color */
+}
+
+.feature-card h3 {
+    font-size: 20px; /* 20px default font size */
+    margin-bottom: 10px; /* Adding Space Bottom margin */
+    color: #2c3e50; /* Dark blue text color */
+}
+
+.feature-card p {
+    margin-bottom: 10px; /* Adding Space Bottom margin */
+    color: #7f8c8d; /* Grayish-blue text color */
+}
+
+#special-feature {
+    background-color: #fde3a7; /* Light Yellow background color */
+    border-color: #f39c12; /* Gold Accent */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 0.1); /* Drop shadow */
+}

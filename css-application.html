@@ -2,11 +2,24 @@
 
 <html lang="en">
 
+
+
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module 5 Css Application</title>
+    <title>Module 5 Home</title>
+
+    <!-- Method 1: External CSS Part 1-->
+ <link rel="stylesheet" href="main.css">
+
+ <!-- Method 2: External CSS Part 2-->
+  <style>
+     .internal-css {
+         color: blue;
+         background-color: aliceblue;
+     }
+  </style>
 
 </head>
 
@@ -28,13 +41,38 @@
 
         </nav>
 
-        <h1>Module 5 Css Application</h1>
+        <h1>Module 5 Home</h1>
 
     </header>
 
     <main>
+        <section>
 
-    </main>
+            <h2>External CSS</h2>
+
+            <!-- Method 1: External CSS Part 2 -->
+             <p class="external-css">This is a paragraph.</p>
+        
+        </section>
+
+        <section>
+
+            <h2>Internal CSS</h2>
+
+            <!-- Method 2: Internal CSS Part 2-->
+             <p class="internal-css">This is a paragraph.</p>
+
+        </section>
+
+        <section>
+
+            <h2>Inline CSS</h2>
+
+            <!-- Method 3: Inline CSS Part 2-->
+             <p style="color: #04bfad;">This is a paragraph.</p>
+        </section>
+
+        </main>
 
     <footer>
 

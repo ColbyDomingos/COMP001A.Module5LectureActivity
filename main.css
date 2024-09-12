@@ -76,3 +76,33 @@ div ul {
     border-color: #f39c12; /* Gold Accent */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 0.1); /* Drop shadow */
 }
+
+/* Styling the link in its normal state */
+a {
+    display: inline-block; /* Making the link a block element */
+    color: #3498db; /* Blue text color */
+    text-decoration: none; /* No Underline */
+    padding: 5px 10px; /* Adding some space in the link */
+    border: 1px solid #3498db; /* Blue border */
+    transition: all 0.3s ease; /* Adding transition effect */
+}
+
+/* Styling for the hover state */
+a:hover {
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* White text color */
+}
+
+/* Styling the buttons */
+button {
+    padding: 5px 10px; /* Adding some space in the button */
+    border: none; /* No border */
+    background-color: #ecf0f1; /* Light gray background color */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: all 0.3s ease; /* Adding transition effect */
+
+}
+
+button:hover {
+    background-color: red; /* Red background color */
+}
